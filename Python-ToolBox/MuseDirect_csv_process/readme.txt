@@ -16,3 +16,4 @@ split_by_packettype(rf'D:\Projects\Data&Labels\TestData\2025-08-12-14-15-59.csv'
 
 该脚本负责将采集的EEG数据与记录的事件时间戳进行merge，并导入到mne中。比较特殊的是（如脚本中所示），我们建议使用样本数量/256的方式作为onset。
 
+请注意，如果实验对于时间戳的同步要求极高（比如ERP的0.05s内），请在实验前联系Xmuse团队。

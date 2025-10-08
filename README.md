@@ -1,4 +1,5 @@
-<img width="1754" height="714" alt="产品资料" src="https://github.com/user-attachments/assets/e72cd0d2-d09b-4a1f-b6b7-afeb50be5fd6" />
+
+<img width="1575" height="646" alt="image" src="https://github.com/user-attachments/assets/300f7c3d-1867-48e2-9fc9-90a3ed9aef8d" />
 
 
 # Xmuse

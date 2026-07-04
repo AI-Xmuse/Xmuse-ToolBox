@@ -1,0 +1,5 @@
+﻿source_file,stage,channel,exists,samples,missing_count,mean,std,min,max,sampling_rate_hz
+Qinghui_S.csv,preprocessed,CH1,True,109884,0,-0.0,1.0,-8.31828,8.229815,256.0349
+Qinghui_S.csv,preprocessed,CH2,True,109884,0,-0.0,1.0,-13.179771,13.031212,256.0349
+Qinghui_S.csv,preprocessed,CH3,True,109884,0,0.0,1.0,-13.544039,13.499291,256.0349
+Qinghui_S.csv,preprocessed,CH4,True,109884,0,0.0,1.0,-8.596865,8.516535,256.0349

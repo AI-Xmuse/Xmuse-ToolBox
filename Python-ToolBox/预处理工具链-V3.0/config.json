@@ -1,0 +1,57 @@
+{
+  "paths": {
+    "convert_input_dir": "data/01",
+    "preprocess_input_dir": "data/02",
+    "direct_input_dir": "data/03",
+    "output_dir": "output"
+  },
+  "preprocess": {
+    "files": [
+      "Qinghui_Athena.csv",
+      "Qinghui_S.csv"
+    ],
+    "raw_columns": {
+      "timestamps": "time",
+      "eeg_1": "CH1",
+      "eeg_2": "CH2",
+      "eeg_3": "CH3",
+      "eeg_4": "CH4"
+    },
+    "channels": [
+      "CH1",
+      "CH2",
+      "CH3",
+      "CH4"
+    ],
+    "baseline_window_sec": [
+      0.0,
+      0.2
+    ],
+    "highpass_hz": 0.5,
+    "lowpass_hz": 45.0,
+    "notch_hz": [
+      49.0,
+      51.0
+    ],
+    "amplitude_threshold": 100.0,
+    "scale_method": "zscore",
+    "epoch": {
+      "enabled": true,
+      "window_sec": 1.0,
+      "overlap_rate": 0.5
+    }
+  },
+  "direct_data": {
+    "files": [
+      "test1.csv",
+      "test2.csv"
+    ]
+  },
+  "convert": {
+    "edf_files": [
+      "exp1.edf",
+      "exp2.edf"
+    ],
+    "csv_to_mat_files": []
+  }
+}

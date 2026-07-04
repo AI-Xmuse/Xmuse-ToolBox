@@ -1,0 +1,5 @@
+﻿source_file,stage,channel,exists,samples,missing_count,mean,std,min,max,sampling_rate_hz
+Qinghui_Athena.csv,preprocessed,CH1,True,110732,0,0.0,1.0,-6.6798,6.667351,256.9435
+Qinghui_Athena.csv,preprocessed,CH2,True,110732,0,0.0,1.0,-12.516742,12.483965,256.9435
+Qinghui_Athena.csv,preprocessed,CH3,True,110732,0,-0.0,1.0,-12.547641,12.571128,256.9435
+Qinghui_Athena.csv,preprocessed,CH4,True,110732,0,0.0,1.0,-6.506403,6.48243,256.9435
